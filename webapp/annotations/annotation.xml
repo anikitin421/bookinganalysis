@@ -1,7 +1,7 @@
 <edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
     <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
         <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
-    </edmx:Reference>
+    </edmx:Reference> 
     <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
         <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
     </edmx:Reference>
@@ -188,7 +188,7 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
-                <Annotation Term="Common.FilterDefaultValue" String="2022"/>
+                <Annotation Term="Common.FilterDefaultValue" String="2021"/>
             </Annotations>
             <Annotations Target="cds_zfe_booking_analytics_000294.BookingType/CustomerID">
                 <Annotation Term="Common.ValueList">
