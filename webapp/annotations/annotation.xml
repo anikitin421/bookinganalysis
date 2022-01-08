@@ -72,7 +72,7 @@
                             </Collection>
                         </PropertyValue>
                         <PropertyValue Property="IncludeGrandTotal" Bool="false"/>
-                        <PropertyValue Property="InitialExpansionLevel" Int="NaN"/>
+                        <!-- PropertyValue Property="InitialExpansionLevel" Int="NaN"/ -->
                         <PropertyValue Property="Visualizations">
                             <Collection>
                                 <AnnotationPath>@UI.LineItem</AnnotationPath>
